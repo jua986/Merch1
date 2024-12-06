@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+}
+
+#Superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  #ffde59;
+}
+
+#Menu a {
+    margin: 0 15px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+#ImagesContainer {
+    display: flex;
+    gap: 10px;
+}
+
+#ImagesContainer img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+img {
+    margin-right: 40px; /* Espacio entre la imagen y el nav */
+    width: 10%; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 10%; /* Mantiene la proporción de la imagen */
+    border-radius: 60%;
+    margin-left: 20px;
+    margin: 14px;
+    image-resolution: 200;
+}
+
+nav a{
+    padding: 5px; /* Espacio interno */
+    margin: 15px; /* Espacio externo */
+    display: inline-flex; /* Mostrar en línea */
+    border-radius: 5px;
+    font-family: "Nunito", sans-serif;
+    color: rgb(16, 16, 15);
+    text-decoration: none; /* Elimina el subrayado */
+    border: none; /* Elimina cualquier borde */
+}
+
+a:hover {
+    background-color: #eeca4a;
+    color: black;
+}
+
+.video-container {
+    text-align: center;
+    margin: 12px;
+  }
+  
+  #myVideo {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  #myVideo:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+#banner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Para asegurar que la imagen cubra todo el área sin distorsionarse */
+    margin: 10px;
+}
+
+.Conocer{
+    text-decoration: none; /* Elimina el subrayado */
+    border: none; /* Elimina cualquier borde */
+    background: #eeca4a;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 90px;
+    text-align: center;
+}
+.Secciones {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Para que cada div ocupe el mismo espacio */
+    align-items: center;
+    border-radius: 5px;
+    color: beige;
+    font-family: "Nunito", sans-serif;
+}
+
+.text-Parra{
+    margin: 12px;
+    color: beige;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+}
+
+.imagen-romance {
+    margin: 12px; /* Ajuste el margen como sea necesario */
+    width: 80%; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    align-items: center;
+}
+
+#Contacto{
+    background-color:  #ffde59;
+    text-align: center;
+}
+
+.Texto-Promo {
+    text-align: center;
+    padding: 5px;
+    font-family: "Nunito", sans-serif;
+}
+
+#Texto-Comu{
+    background-color: #0e0f0f;
+    font-family: "Nunito", sans-serif;
+    padding: 15px;
+    color: white;
+}
+
+/* Contenedor del carrusel */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Pista del carrusel */
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+}
+
+/* Elementos del carrusel */
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+/* Contenido: título y texto */
+.carousel-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.carousel-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.carousel-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Imágenes */
+.carousel-item img {
+    width: 150px; /* Ajusta el tamaño */
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Botones del carrusel (indicadores) */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.indicator:hover {
+    background-color: #555;
+    transform: scale(1.2);
+}
+
+.indicator.active {
+    background-color: #333;
+    transform: scale(1.5);
+}
+
+
+
+footer {
+    background-color:  #ffde59; /* Color de fondo */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espacio interno */
+    color: rgb(7, 7, 7); /* Color del texto */
+    font-family: "Nunito", sans-serif; /* Fuente del texto */
+}
+
+footer p {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
